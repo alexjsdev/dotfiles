@@ -4,17 +4,27 @@
 install caskroom/cask/brew-cask
 tap caskroom/versions
 
+cask install alfred 2> /dev/null
+cask install audacity 2> /dev/null
+cask install chromecast 2> /dev/null
+cask install cyberduck 2> /dev/null
 cask install dropbox 2> /dev/null
+cask install filezilla 2> /dev/null
+cask install firefox 2> /dev/null
+cask install github 2> /dev/null
 cask install google-chrome 2> /dev/null
 cask install google-chrome-canary 2> /dev/null
+cask install handbrake 2> /dev/null
 cask install imagealpha 2> /dev/null
 cask install imageoptim 2> /dev/null
 cask install iterm2 2> /dev/null
+cask install little-snitch 2> /dev/null
 cask install macvim 2> /dev/null
 cask install miro-video-converter 2> /dev/null
-cask install opera 2> /dev/null
-cask install opera-developer 2> /dev/null
-cask install opera-next 2> /dev/null
+cask install nvalt 2> /dev/null
+cask install path-finder 2> /dev/null
+cask install sizeup 2> /dev/null
+cask install sourcetree 2> /dev/null
 cask install sublime-text 2> /dev/null
 cask install the-unarchiver 2> /dev/null
 cask install torbrowser 2> /dev/null
@@ -22,3 +32,6 @@ cask install transmission 2> /dev/null
 cask install ukelele 2> /dev/null
 cask install virtualbox 2> /dev/null
 cask install vlc 2> /dev/null
+
+# link homebrew-installed apps to Alfred
+cask alfred link
