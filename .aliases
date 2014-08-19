@@ -125,11 +125,6 @@ alias badge="tput bel"
 # find . -name .gitattributes | map dirname
 alias map="xargs -n1"
 
-# colorize grep
-# alias grep='grep --color=auto'
-# alias egrep='egrep --color=auto'
-# alias fgrep='fgrep --color=auto'
-
 # start calc with math support
 # alias bc='bc -l'
 
