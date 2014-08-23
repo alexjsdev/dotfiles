@@ -1,0 +1,2 @@
+# Prepend coreutils bin to the `$PATH`
+export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH";
