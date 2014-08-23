@@ -126,7 +126,7 @@ alias badge="tput bel"
 alias map="xargs -n1"
 
 # start calc with math support
-# alias bc='bc -l'
+alias bc='bc -l'
 
 #show lisening PIDs
 alias listening="lsof -n | grep LISTEN"
