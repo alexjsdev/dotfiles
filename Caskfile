@@ -17,7 +17,6 @@ cask install handbrake 2> /dev/null
 cask install imagealpha 2> /dev/null
 cask install imageoptim 2> /dev/null
 cask install iterm2 2> /dev/null
-cask install little-snitch 2> /dev/null
 cask install macvim 2> /dev/null
 cask install miro-video-converter 2> /dev/null
 cask install nvalt 2> /dev/null
