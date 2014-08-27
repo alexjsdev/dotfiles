@@ -668,8 +668,11 @@ defaults write com.irradiatedsoftware.SizeUp ShowPrefsOnNextStart -bool false
 # Sublime Text                                                                #
 ###############################################################################
 
-# Install Sublime Text settings
-cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null
+# Create symlink so ST2 looks to dotfiles for prefs - http://zanshin.net/2013/01/21/sublime-text-2-dotfiles-simplified/
+# Assumes path to dotfiles repo is ~/Dev/dotfiles
+rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User 2> /dev/null
+ln -s ~/Dev/dotfiles/sublime/User ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User 2> /dev/null
+
 
 ###############################################################################
 # Transmission.app                                                            #
