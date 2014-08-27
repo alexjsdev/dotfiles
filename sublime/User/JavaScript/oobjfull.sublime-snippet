@@ -1,0 +1,85 @@
+<snippet>
+	<content><![CDATA[
+/*!*/
+/*! window.${2:namespace} | ${4:Spencer Sanchez} */
+
+/**
+ * ${1:General description of what this file does}
+ *
+ *
+ * Created by $4
+ * ${5:2014}-${6:02}-${7:26}
+ *
+ * JS dependencies:
+ *		jQuery${3/, /\n *		$LAST_SUBMATCH_RESULT/g}
+ *
+ * internals:
+ *		$2.global
+ *		$2.util
+ *
+ */
+
+(function(ns, window, \$$3, undefined){
+	/** @exports ns as window.$2 */
+	"use strict";
+
+
+	/**
+	 *
+	 * $2.global
+	 *
+	 * App-wide actions and event handlers
+	 *
+	 */
+	ns.global = {
+		_bindEvents: function () {
+			var that = this;
+		},
+
+
+		init: function () {
+			this._bindEvents();
+		}
+	};
+
+
+	/**
+	 *
+	 * $2.util
+	 *
+	 * Utility functions for the page
+	 *
+	 */
+	ns.util = {
+
+		init: function () {
+		}
+	};
+
+
+
+	/**
+	 *
+	 * $2.init
+	 *
+	 * Start the app's any sub-namespaces and run any initial code
+	 *
+	 */
+	ns.init = function () {
+		ns.global.init();
+		ns.util.init();
+		$0
+	};
+
+
+	\$(function(){
+		ns.init();
+	});
+
+
+})(window.$2 = window.$2 || {}, this, jQuery${3:, otherLibsCommaDelim});
+]]></content>
+	<tabTrigger>oobj</tabTrigger>
+	<!-- <scope>source.js</scope> -->
+	<description>new full namespace shell</description>
+</snippet>

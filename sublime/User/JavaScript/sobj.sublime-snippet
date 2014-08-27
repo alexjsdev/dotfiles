@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+// to be used on a form element
+\$.fn.serializeObject = function() {
+	var o = {},
+		a = this.serializeArray();
+		
+	\$.each(a, function() {
+		if (typeof o[this.name] !== "undefined") {
+			if (!o[this.name].push) {
+				o[this.name] = [o[this.name]];
+			}
+			o[this.name].push(this.value || '');
+		} else {
+			o[this.name] = this.value || '';
+		}
+	});
+	return o;
+};
+$0
+]]></content>
+	<tabTrigger>sobj</tabTrigger>
+	<scope>source.js</scope>
+	<description>jQuery plugin to serialize an object</description>
+</snippet>

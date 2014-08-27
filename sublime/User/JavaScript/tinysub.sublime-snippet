@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$.subscribe('${1:$TM_SELECTED_TEXT}', function(event, ${2:o}){
+	${3:that}.${4:_privatehandler}($2);$0
+});
+]]></content>
+	<tabTrigger>tinysub</tabTrigger>
+	<scope>source.js</scope>
+	<description>TinyPubSub - Subscribe</description>
+</snippet>

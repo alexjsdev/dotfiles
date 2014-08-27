@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+$0/**
+ *
+ * ${1:namespace}.${2:new subnamespace}
+ *
+ * ${3:description}
+ *
+ */
+ns.$2 = {
+	_bindEvents: function () {
+		var that = this;
+	},
+
+
+	init: function () {
+		this._bindEvents();
+	}
+};
+${4:REMEMBER TO ADD THIS TO LIST OF INTERNALS UP TOP}
+
+]]></content>
+	<tabTrigger>nso</tabTrigger>
+	<!-- <scope>source.js</scope> -->
+	<description>object within ns namespace</description>
+</snippet>

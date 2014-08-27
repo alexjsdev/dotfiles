@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[<div${1: class="${2:className}"}${3: id="${4:uniqueID}"}>
+	$0
+</div>
+]]></content>
+	<tabTrigger>div</tabTrigger>
+	<description>div with attrs</description>
+	<!-- <scope>text.html</scope> -->
+</snippet>
+

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+// @debug [sanchezs]
+window.console.log((new Date()).getTime(), ' ${1:$TM_SELECTED_TEXT}${2:}');
+]]></content>
+	<tabTrigger>log</tabTrigger>
+	<scope>source.js</scope>
+	<description>Console Log</description>
+</snippet>

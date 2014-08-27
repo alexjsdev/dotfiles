@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$.publish('${1:$TM_SELECTED_TEXT}', ${2:\{o\}});
+]]></content>
+	<tabTrigger>tinypub</tabTrigger>
+	<scope>source.js</scope>
+	<description>TinyPubSub - Publish</description>
+</snippet>
