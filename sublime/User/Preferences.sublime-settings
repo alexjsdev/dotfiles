@@ -1,0 +1,74 @@
+{
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"default_encoding": "UTF-8",
+	"default_line_ending": "unix",
+	"detect_indentation": true,
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.a",
+		"*.class",
+		"*.db",
+		"*.dll",
+		"*.dylib",
+		"*.exe",
+		"*.idb",
+		"*.lib",
+		"*.ncb",
+		"*.o",
+		"*.obj",
+		"*.pdb",
+		"*.psd",
+		"*.pyc",
+		"*.pyo",
+		"*.scssc",
+		"*.sdf",
+		"*.so",
+		"*.suo",
+		"._*",
+		".DS_Store",
+		".Spotlight-V100",
+		".Trashes",
+		"Desktop.ini",
+		"Thumbs.db"
+	],
+	"folder_exclude_patterns":
+	[
+		".hg",
+		".git",
+		".sass-cache",
+		".svn",
+		"CVS",
+		"node_modules"
+	],
+	"font_face": "Consolas",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 12.0,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 2,
+	"match_brackets": true,
+	"match_brackets_angle": true,
+	"remember_open_files": true,
+	"rulers":
+	[
+		120
+	],
+	"show_encoding": true,
+	"show_line_endings": true,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": false,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
+}

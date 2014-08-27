@@ -1,0 +1,22 @@
+{
+	"installed_packages":
+	[
+		"Alignment",
+		"ApacheConf.tmLanguage",
+		"BracketHighlighter",
+		"Clipboard History",
+		"DocBlockr",
+		"HTML5",
+		"JsMinifier",
+		"LoremIpsum",
+		"LoremPixel",
+		"Nettuts+ Fetch",
+		"Open-Include",
+		"Package Control",
+		"Placeholders",
+		"Sass",
+		"Search Stack Overflow",
+		"SublimeCodeIntel",
+		"SublimeLinter"
+	]
+}
