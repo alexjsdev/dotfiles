@@ -1,0 +1,68 @@
+{
+
+    /*
+        The minimum delay in seconds (fractional seconds are okay) before
+        a linter is run when the "sublimelinter" setting is true. This allows
+        you to have background linting active, but defer the actual linting
+        until you are idle. When this value is greater than the built in linting delay,
+        errors are erased when the file is modified, since the assumption is
+        you don't want to see errors while you type.
+    */
+    "sublimelinter_delay": 7,
+
+    // jshint: options for linting JavaScript. See http://www.jshint.com/docs/ for more info.
+    // By deault, eval is allowed.
+    "jshint_options":
+    {
+        "bitwise": true,
+"browser": true,
+        "camelcase": true,
+        "curly": true,
+        "devel": true,
+        "eqeqeq": true,
+        // "esnext": true,
+        "evil": false,
+        // "forin": true,
+        "immed": true,
+        "jquery": true,
+        // "latedef": true,
+        "newcap": true,
+        "noarg": true,
+        "node": true,
+        // "onevar": true,
+        // "quotmark": "single",
+        "smarttabs": true,
+        "undef": true,
+        "unused": true
+        // "window": false,
+        // "wsh": true
+    },
+
+    // CSSLint options:
+    // Each rule can have three values: error|warning|true|false
+    // false => rule is disabled.
+    // true => alias to 'error'
+    // All rules are enabled by default.
+    // Currently the only difference between warnings and errors is in the prefix of the message in the Sublime status bar.
+    // http://csslint.net/about.html
+    // https://github.com/stubbornella/csslint/wiki/Rules
+    "csslint_options":
+    {
+        "box-model": false,
+        "box-sizing": false,
+        "compatible-vendor-prefixes": false,
+        "import": false,
+        "outline-none": false,
+        "qualified-headings": false,
+        "shorthand": false,
+        "unique-headings": false,
+        "zero-units": "error"
+    },
+
+
+    // Set to true to highlight annotations
+    "sublimelinter_notes": true,
+
+    // The set of annotation phrases to highlight
+    "annotations": ["@todo", "@readme", "@fixme", "@hack", "@note", "@debug", "@temp"]
+}
