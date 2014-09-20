@@ -8,6 +8,7 @@ cask install alfred 2> /dev/null
 cask install audacity 2> /dev/null
 cask install chromecast 2> /dev/null
 cask install cyberduck 2> /dev/null
+cask install day-o 2> /dev/null
 cask install dropbox 2> /dev/null
 cask install filezilla 2> /dev/null
 cask install firefox 2> /dev/null
