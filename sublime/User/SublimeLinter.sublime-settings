@@ -30,6 +30,9 @@
         "noarg": true,
         "node": true,
         // "onevar": true,
+        "predef": [
+            "jQuery"
+        ],
         // "quotmark": "single",
         "smarttabs": true,
         "undef": true,

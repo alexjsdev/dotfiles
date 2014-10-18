@@ -6,7 +6,9 @@
 		"BracketHighlighter",
 		"Clipboard History",
 		"DocBlockr",
+		"Emmet",
 		"HTML5",
+		"JavaScriptNext - ES6 Syntax",
 		"JsMinifier",
 		"LoremIpsum",
 		"LoremPixel",
@@ -16,6 +18,7 @@
 		"Placeholders",
 		"Sass",
 		"Search Stack Overflow",
+		"Sublime-KnockoutJS-Snippets",
 		"SublimeCodeIntel",
 		"SublimeLinter"
 	]
