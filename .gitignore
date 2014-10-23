@@ -7,7 +7,7 @@ Desktop.ini
 
 # Thumbnail cache files
 ._*
-Thumbs.db
+[Tt]humbs.db
 
 # Files that might appear on external disks
 .Spotlight-V100
@@ -16,4 +16,8 @@ Thumbs.db
 sublime/User/Package Control.last-run
 sublime/User/Package Control.system-ca-bundle
 
-*.cache
+*.[Cc]ache
+*.sass-cache
+
+# Office Temp Files
+~$*
