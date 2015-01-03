@@ -16,6 +16,9 @@ alias dt="cd ~/Desktop"
 alias dv="cd ~/Dev"
 alias s="cd /local/sites"
 alias g="git"
+
+alias ng="npm list -g --depth=0"
+alias nl="npm list --depth=0"
 # alias h="history"
 # alias j="jobs"
 
