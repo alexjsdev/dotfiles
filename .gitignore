@@ -21,3 +21,7 @@ sublime/User/Package Control.system-ca-bundle
 
 # Office Temp Files
 ~$*
+
+sublime/User/Package Control.user-ca-bundle
+
+sublime/User/Package Control.merged-ca-bundle
