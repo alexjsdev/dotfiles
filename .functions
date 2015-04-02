@@ -54,6 +54,11 @@ function targz() {
 	echo "${tmpFile}.gz created successfully.";
 }
 
+# Create a compressed AES-256 encrypted .dmg from the passed folder
+function edmg() {
+	hdiutil create -format UDZO -srcfolder "$1" "$1".$(date +%Y-%m-%d.%H%M%S).dmg -encryption AES-256;
+}
+
 # Determine size of a file or total size of a directory
 function fs() {
 	if du -b /dev/null > /dev/null 2>&1; then
