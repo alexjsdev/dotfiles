@@ -19,6 +19,7 @@ brew cask install cyberduck
 brew cask install iterm2
 brew cask install imagealpha
 brew cask install imageoptim
+brew cask install mysqlworkbench
 brew cask install sourcetree
 brew cask install sublime-text3
 # brew cask install virtualbox
