@@ -1,0 +1,51 @@
+
+# Git creds
+
+# GIT_AUTHOR_NAME=""
+# GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
+# git config --global user.name "$GIT_AUTHOR_NAME"
+# GIT_AUTHOR_EMAIL=""
+# GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
+# git config --global user.email "$GIT_AUTHOR_EMAIL"
+
+# Git aliases
+git config --global alias.l "log --pretty=oneline -n 20 --graph --abbrev-commit"
+git config --global alias.lg "log --oneline --decorate --all --graph"
+git config --global alias.s "status -s"
+git config --global alias.d "!git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
+git config --global alias.di "!d() { git diff --patch-with-stat HEAD~$1; }; git diff-index --quiet HEAD -- || clear; d"
+git config --global alias.p "!git pull; git submodule foreach git pull origin master"
+git config --global alias.c "clone --recursive"
+git config --global alias.ca "!git add -A && git commit -av"
+git config --global alias.go "!f() { git checkout -b "$1" 2> /dev/null || git checkout "$1"; }; f"
+git config --global alias.tags "tag -l"
+git config --global alias.branches "branch -a"
+git config --global alias.remotes "remote -v"
+git config --global alias.amend "commit --amend --reuse-message=HEAD"
+git config --global alias.credit "!f() { git commit --amend --author "$1 <$2>" -C HEAD; }; f"
+git config --global alias.reb "!r() { git rebase -i HEAD~$1; }; r"
+git config --global alias.fb "!f() { git branch -a --contains $1; }; f"
+git config --global alias.ft "!f() { git describe --always --contains $1; }; f"
+git config --global alias.fc "!f() { git log --pretty=format:'%C(yellow)%h  %Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short -S$1; }; f"
+git config --global alias.fm "!f() { git log --pretty=format:'%C(yellow)%h  %Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short --grep=$1; }; f"
+git config --global alias.dm "!git branch --merged | grep -v '\*' | xargs -n 1 git branch -d"
+git config --global alias.contributors "shortlog --summary --numbered"
+
+
+# git config --global apply.whitespace "fix"
+# git config --global core.whitespace "space-before-tab,-indent-with-non-tab,trailing-space"
+# git config --global core.trustctime "false"
+# git config --global core.autocrlf "input"
+
+# Git Colors
+git config --global color.ui "auto"
+git config --global color.branch.current "yellow reverse"
+git config --global color.branch.local "yellow"
+git config --global color.branch.remote "green"
+git config --global color.diff.meta "yellow bold"
+git config --global color.diff.frag "magenta bold"
+git config --global color.diff.old "red"
+git config --global color.diff.new "green"
+git config --global color.status.added "yellow"
+git config --global color.status.changed "green"
+git config --global color.status.untracked "cyan"
