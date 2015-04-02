@@ -14,7 +14,7 @@ alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias dv="cd ~/Dev"
-alias s="cd /local/sites"
+# alias s="cd /local/sites"
 alias g="git"
 
 alias ng="npm list -g --depth=0"
