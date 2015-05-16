@@ -41,6 +41,7 @@ brew cask install google-chrome-canary
 # less often
 brew cask install disk-inventory-x
 brew cask install the-unarchiver
+brew cask install ccleaner
 # brew cask install transmission
 brew cask install vlc
 
