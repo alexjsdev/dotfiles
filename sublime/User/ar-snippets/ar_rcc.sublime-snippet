@@ -1,0 +1,33 @@
+<snippet>
+  <content><![CDATA[
+// external dependencies
+import PropTypes from 'prop-types';
+import React, {
+  PureComponent
+} from 'react';
+
+class ${1:ComponentName} extends PureComponent {
+  static displayName = '${1:ComponentName}';
+
+  static propTypes = {
+
+  };
+
+  render() {
+    return (
+      <div>
+        ${1:ComponentName}
+      </div>
+    );
+  }
+}
+
+export default ${1:ComponentName};
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>rcc</tabTrigger>
+  <description>ES6 react component class</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

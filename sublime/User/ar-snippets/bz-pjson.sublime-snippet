@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+{
+  "name": "${1:Module Name}",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./$1.jsx$0"
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bz-pjson</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js, source.json</scope>
+	<description>mini package.json</description>
+
+</snippet>
