@@ -17,10 +17,13 @@ alias dv="cd ~/Dev"
 # alias s="cd /local/sites"
 alias g="git"
 
+alias yui="yarn upgrade-interactive"
 alias ng="npm list -g --depth=0"
 alias nl="npm list --depth=0"
 # alias h="history"
 # alias j="jobs"
+alias opendots="find ~ -maxdepth 1 -type f \( -name ".bash*" -o -name ".alias*" -o -name ".ex*" -o -name ".func*" \) -exec subl {} \;"
+alias ver="cat package.json | grep version"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -166,3 +169,9 @@ alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v exten
 
 # Faster npm for Europeans
 # command -v npm > /dev/null && alias npme="npm --registry http://registry.npmjs.eu/"
+
+# nuke node modules folder
+alias rmn="rm -rf node_modules/"
+
+# nuke node modules folder and rm yarn lock, and run yarn
+alias reyarn="rm -rf node_modules/ && rm -f yarn.lock && yarn"

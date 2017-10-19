@@ -1,2 +1,44 @@
 [
+	{ "keys": ["super+alt+down"], "command": "goto_definition" },
+	{ "keys": ["super+alt+l"], "command": "insert_snippet", "args": {"name": "Packages/User/bz-snippets/bz-cl.sublime-snippet"}},
+	{ "keys": ["super+alt+shift+l"], "command": "insert_snippet", "args": {"name": "Packages/User/bz-snippets/ppl.sublime-snippet"}},
+	{ "keys": ["super+shift+r"], "command": "reindent" , "args": { "single_line": false } },
+	{ "keys": ["ctrl+shift+t"], "command": "delete_trailing_spaces" },
+
+	// Auto-pair curly brackets
+	// { "keys": ["{"], "command": "insert_snippet", "args": {"contents": "{ $0 }"}, "context":
+	// 	[
+	// 		{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+	// 		{ "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+	// 		{ "key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|\\}|$)", "match_all": true },
+	// 		{ "key": "selector", "operator": "equal", "operand": "source.js" }
+	// 	]
+	// },
+	// { "keys": ["{"], "command": "insert_snippet", "args": {"contents": "{ ${0:$SELECTION} }"}, "context":
+	// 	[
+	// 		{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+	// 		{ "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true },
+	// 		{ "key": "selector", "operator": "equal", "operand": "source.js" }
+	// 	]
+	// },
+
+	// emmet
+	{
+		"keys": ["tab"], "command": "expand_abbreviation_by_tab", "context": [
+			{ "operand": "source.js", "operator": "equal", "match_all": true, "key": "selector" },
+			{ "match_all": true, "key": "selection_empty" },
+			{ "operator": "equal", "operand": false, "match_all": true, "key": "has_next_field" },
+			{ "operand": false, "operator": "equal", "match_all": true, "key": "auto_complete_visible" },
+			{ "match_all": true, "key": "is_abbreviation" }
+		]
+	},
+
+	// reindent
+	{ "keys": ["alt+r"], "command": "reindent", "args": {"single_line": false} },
+
+	//copy file path
+	{ "keys": ["ctrl+alt+c"], "command": "copy_path" },
+
+	// preview markdown
+	{ "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"github"} }
 ]

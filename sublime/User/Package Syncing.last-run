@@ -1,0 +1,677 @@
+{
+    "last_local_data": {
+        "ApplySyntax.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/ApplySyntax.sublime-settings", 
+            "version": 1463095008.0
+        }, 
+        "Base File.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/Base File.sublime-settings", 
+            "version": 1490038887.0
+        }, 
+        "CSScomb.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/CSScomb.sublime-settings", 
+            "version": 1490888663.0
+        }, 
+        "Color Highlighter/themes/Monokai (SL).tmTheme": {
+            "dir": "Color Highlighter/themes", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme", 
+            "version": 1471321727.0
+        }, 
+        "Color Highlighter/themes/Monokai Phoenix (SL).tmTheme": {
+            "dir": "Color Highlighter/themes", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/Color Highlighter/themes/Monokai Phoenix (SL).tmTheme", 
+            "version": 1506969718.0
+        }, 
+        "ColorHighlighter.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings", 
+            "version": 1461778930.0
+        }, 
+        "Default (OSX).sublime-keymap": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap", 
+            "version": 1490373558.0
+        }, 
+        "Default (Windows).sublime-keymap": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap", 
+            "version": 1463110614.0
+        }, 
+        "ESLint-Formatter.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/ESLint-Formatter.sublime-settings", 
+            "version": 1501561325.0
+        }, 
+        "FreeMarker.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/FreeMarker.sublime-settings", 
+            "version": 1462887640.0
+        }, 
+        "HTML (Rails).sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/HTML (Rails).sublime-settings", 
+            "version": 1463107306.0
+        }, 
+        "HTML.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/HTML.sublime-settings", 
+            "version": 1463095008.0
+        }, 
+        "JSCS-Formatter.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/JSCS-Formatter.sublime-settings", 
+            "version": 1436035338.0
+        }, 
+        "JSON.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings", 
+            "version": 1463107306.0
+        }, 
+        "JSON[Conflict].sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/JSON[Conflict].sublime-settings", 
+            "version": 1463107312.0
+        }, 
+        "JavaScript (Babel).sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/JavaScript (Babel).sublime-settings", 
+            "version": 1450659424.0
+        }, 
+        "JavaScript.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/JavaScript.sublime-settings", 
+            "version": 1430398668.0
+        }, 
+        "JavascriptBeautify.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/JavascriptBeautify.sublime-settings", 
+            "version": 1488318268.0
+        }, 
+        "JsFormat.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/JsFormat.sublime-settings", 
+            "version": 1504627599.0
+        }, 
+        "LESS.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/LESS.sublime-settings", 
+            "version": 1436294174.0
+        }, 
+        "PHP.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/PHP.sublime-settings", 
+            "version": 1463107306.0
+        }, 
+        "PHP[Conflict].sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/PHP[Conflict].sublime-settings", 
+            "version": 1463107312.0
+        }, 
+        "Package Control.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings", 
+            "version": 1506520475.0
+        }, 
+        "PlainTasks.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/PlainTasks.sublime-settings", 
+            "version": 1493140564.0
+        }, 
+        "Preferences.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings", 
+            "version": 1506525508.0
+        }, 
+        "Preferences[Conflict].sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/Preferences[Conflict].sublime-settings", 
+            "version": 1435622506.0
+        }, 
+        "Pretty JSON.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/Pretty JSON.sublime-settings", 
+            "version": 1436800788.0
+        }, 
+        "Python.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-settings", 
+            "version": 1463107306.0
+        }, 
+        "Ruby Haml.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/Ruby Haml.sublime-settings", 
+            "version": 1463107306.0
+        }, 
+        "Ruby.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/Ruby.sublime-settings", 
+            "version": 1463107306.0
+        }, 
+        "SVN.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/SVN.sublime-settings", 
+            "version": 1402060814.0
+        }, 
+        "Sass.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/Sass.sublime-settings", 
+            "version": 1459786542.0
+        }, 
+        "Shell-Unix-Generic.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/Shell-Unix-Generic.sublime-settings", 
+            "version": 1463107306.0
+        }, 
+        "SideBarEnhancements/Open With/Side Bar.sublime-menu": {
+            "dir": "SideBarEnhancements/Open With", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu", 
+            "version": 1468892490.0
+        }, 
+        "SublimeLinter.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings", 
+            "version": 1502731726.0
+        }, 
+        "SublimeLinter/Monokai (SL).tmTheme": {
+            "dir": "SublimeLinter", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter/Monokai (SL).tmTheme", 
+            "version": 1471321684.0
+        }, 
+        "SublimeLinter/Monokai Bright (SL).tmTheme": {
+            "dir": "SublimeLinter", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter/Monokai Bright (SL).tmTheme", 
+            "version": 1420469058.0
+        }, 
+        "SublimeLinter/Monokai Extended (SL).tmTheme": {
+            "dir": "SublimeLinter", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter/Monokai Extended (SL).tmTheme", 
+            "version": 1452640504.0
+        }, 
+        "SublimeLinter/Monokai Extended Bright (SL).tmTheme": {
+            "dir": "SublimeLinter", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter/Monokai Extended Bright (SL).tmTheme", 
+            "version": 1463056774.0
+        }, 
+        "SublimeLinter/Monokai Phoenix (SL).tmTheme": {
+            "dir": "SublimeLinter", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter/Monokai Phoenix (SL).tmTheme", 
+            "version": 1463399762.0
+        }, 
+        "SublimeLinter/Next (SL).tmTheme": {
+            "dir": "SublimeLinter", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter/Next (SL).tmTheme", 
+            "version": 1462927282.0
+        }, 
+        "Tern.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/Tern.sublime-settings", 
+            "version": 1481940112.0
+        }, 
+        "TodoReview.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/TodoReview.sublime-settings", 
+            "version": 1489614527.0
+        }, 
+        "WakaTime.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/WakaTime.sublime-settings", 
+            "version": 1444066342.0
+        }, 
+        "XML.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/XML.sublime-settings", 
+            "version": 1467830916.0
+        }, 
+        "YAML.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/YAML.sublime-settings", 
+            "version": 1498057958.0
+        }, 
+        "ZenTabs.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/ZenTabs.sublime-settings", 
+            "version": 1486438462.0
+        }, 
+        "ar-snippets/ar-rcc.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/ar-snippets/ar-rcc.sublime-snippet", 
+            "version": 1474306451.0
+        }, 
+        "ar-snippets/ar_rcc.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/ar-snippets/ar_rcc.sublime-snippet", 
+            "version": 1502814685.0
+        }, 
+        "ar-snippets/arrow.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/ar-snippets/arrow.sublime-snippet", 
+            "version": 1481939520.0
+        }, 
+        "ar-snippets/bz-bc.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/ar-snippets/bz-bc.sublime-snippet", 
+            "version": 1438650020.0
+        }, 
+        "ar-snippets/bz-cl.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/ar-snippets/bz-cl.sublime-snippet", 
+            "version": 1438798400.0
+        }, 
+        "ar-snippets/bz-pjson.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/ar-snippets/bz-pjson.sublime-snippet", 
+            "version": 1453303662.0
+        }, 
+        "ar-snippets/bz-rcc-es5.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/ar-snippets/bz-rcc-es5.sublime-snippet", 
+            "version": 1453303594.0
+        }, 
+        "ar-snippets/bz-rdc.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/ar-snippets/bz-rdc.sublime-snippet", 
+            "version": 1500475220.0
+        }, 
+        "ar-snippets/classNameStyles.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/ar-snippets/classNameStyles.sublime-snippet", 
+            "version": 1495568095.0
+        }, 
+        "ar-snippets/constAr.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/ar-snippets/constAr.sublime-snippet", 
+            "version": 1504292250.0
+        }, 
+        "ar-snippets/divcn.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/ar-snippets/divcn.sublime-snippet", 
+            "version": 1502989679.0
+        }, 
+        "ar-snippets/import-desctructuring.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/ar-snippets/import-desctructuring.sublime-snippet", 
+            "version": 1487088687.0
+        }, 
+        "ar-snippets/ppl.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/ar-snippets/ppl.sublime-snippet", 
+            "version": 1490374015.0
+        }, 
+        "ar-snippets/propsDS.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/ar-snippets/propsDS.sublime-snippet", 
+            "version": 1481939600.0
+        }, 
+        "ar-snippets/react-bind.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/ar-snippets/react-bind.sublime-snippet", 
+            "version": 1467905998.0
+        }, 
+        "ar-snippets/react-constructor-method.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/ar-snippets/react-constructor-method.sublime-snippet", 
+            "version": 1470055272.0
+        }, 
+        "ar-snippets/switch.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/ar-snippets/switch.sublime-snippet", 
+            "version": 1450448294.0
+        }, 
+        "ar-snippets/syncAvaTest.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/ar-snippets/syncAvaTest.sublime-snippet", 
+            "version": 1501561747.0
+        }, 
+        "ar-snippets/testAvaSync.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/ar-snippets/testAvaSync.sublime-snippet", 
+            "version": 1504288760.0
+        }, 
+        "trailing_spaces.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/Library/Application Support/Sublime Text 3/Packages/User/trailing_spaces.sublime-settings", 
+            "version": 1463109224.0
+        }
+    }, 
+    "last_remote_data": {
+        "ApplySyntax.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/ApplySyntax.sublime-settings", 
+            "version": 1463095008.0
+        }, 
+        "Base File.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/Base File.sublime-settings", 
+            "version": 1490038887.0
+        }, 
+        "CSScomb.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/CSScomb.sublime-settings", 
+            "version": 1490888663.0
+        }, 
+        "Color Highlighter/themes/Monokai (SL).tmTheme": {
+            "dir": "Color Highlighter/themes", 
+            "path": "/Users/arosenthal/sublime-packages/Color Highlighter/themes/Monokai (SL).tmTheme", 
+            "version": 1471321727.0
+        }, 
+        "Color Highlighter/themes/Monokai Phoenix (SL).tmTheme": {
+            "dir": "Color Highlighter/themes", 
+            "path": "/Users/arosenthal/sublime-packages/Color Highlighter/themes/Monokai Phoenix (SL).tmTheme", 
+            "version": 1506969718.0
+        }, 
+        "ColorHighlighter.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/ColorHighlighter.sublime-settings", 
+            "version": 1461778930.0
+        }, 
+        "Default (OSX).sublime-keymap": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/Default (OSX).sublime-keymap", 
+            "version": 1490373558.0
+        }, 
+        "Default (Windows).sublime-keymap": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/Default (Windows).sublime-keymap", 
+            "version": 1463110614.0
+        }, 
+        "ESLint-Formatter.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/ESLint-Formatter.sublime-settings", 
+            "version": 1501561325.0
+        }, 
+        "FreeMarker.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/FreeMarker.sublime-settings", 
+            "version": 1462887640.0
+        }, 
+        "HTML (Rails).sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/HTML (Rails).sublime-settings", 
+            "version": 1463107306.0
+        }, 
+        "HTML.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/HTML.sublime-settings", 
+            "version": 1463095008.0
+        }, 
+        "JSCS-Formatter.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/JSCS-Formatter.sublime-settings", 
+            "version": 1436035338.0
+        }, 
+        "JSON.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/JSON.sublime-settings", 
+            "version": 1463107306.0
+        }, 
+        "JSON[Conflict].sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/JSON[Conflict].sublime-settings", 
+            "version": 1463107312.0
+        }, 
+        "JavaScript (Babel).sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/JavaScript (Babel).sublime-settings", 
+            "version": 1450659424.0
+        }, 
+        "JavaScript.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/JavaScript.sublime-settings", 
+            "version": 1430398668.0
+        }, 
+        "JavascriptBeautify.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/JavascriptBeautify.sublime-settings", 
+            "version": 1488318268.0
+        }, 
+        "JsFormat.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/JsFormat.sublime-settings", 
+            "version": 1504627599.0
+        }, 
+        "LESS.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/LESS.sublime-settings", 
+            "version": 1436294174.0
+        }, 
+        "PHP.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/PHP.sublime-settings", 
+            "version": 1463107306.0
+        }, 
+        "PHP[Conflict].sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/PHP[Conflict].sublime-settings", 
+            "version": 1463107312.0
+        }, 
+        "Package Control.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/Package Control.sublime-settings", 
+            "version": 1506520475.0
+        }, 
+        "PlainTasks.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/PlainTasks.sublime-settings", 
+            "version": 1493140564.0
+        }, 
+        "Preferences.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/Preferences.sublime-settings", 
+            "version": 1506525508.0
+        }, 
+        "Preferences[Conflict].sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/Preferences[Conflict].sublime-settings", 
+            "version": 1435622506.0
+        }, 
+        "Pretty JSON.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/Pretty JSON.sublime-settings", 
+            "version": 1436800788.0
+        }, 
+        "Python.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/Python.sublime-settings", 
+            "version": 1463107306.0
+        }, 
+        "Ruby Haml.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/Ruby Haml.sublime-settings", 
+            "version": 1463107306.0
+        }, 
+        "Ruby.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/Ruby.sublime-settings", 
+            "version": 1463107306.0
+        }, 
+        "SVN.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/SVN.sublime-settings", 
+            "version": 1402060814.0
+        }, 
+        "Sass.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/Sass.sublime-settings", 
+            "version": 1459786542.0
+        }, 
+        "Shell-Unix-Generic.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/Shell-Unix-Generic.sublime-settings", 
+            "version": 1463107306.0
+        }, 
+        "SideBarEnhancements/Open With/Side Bar.sublime-menu": {
+            "dir": "SideBarEnhancements/Open With", 
+            "path": "/Users/arosenthal/sublime-packages/SideBarEnhancements/Open With/Side Bar.sublime-menu", 
+            "version": 1468892490.0
+        }, 
+        "SublimeLinter.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/SublimeLinter.sublime-settings", 
+            "version": 1502731726.0
+        }, 
+        "SublimeLinter/Monokai (SL).tmTheme": {
+            "dir": "SublimeLinter", 
+            "path": "/Users/arosenthal/sublime-packages/SublimeLinter/Monokai (SL).tmTheme", 
+            "version": 1471321684.0
+        }, 
+        "SublimeLinter/Monokai Bright (SL).tmTheme": {
+            "dir": "SublimeLinter", 
+            "path": "/Users/arosenthal/sublime-packages/SublimeLinter/Monokai Bright (SL).tmTheme", 
+            "version": 1420469058.0
+        }, 
+        "SublimeLinter/Monokai Extended (SL).tmTheme": {
+            "dir": "SublimeLinter", 
+            "path": "/Users/arosenthal/sublime-packages/SublimeLinter/Monokai Extended (SL).tmTheme", 
+            "version": 1452640504.0
+        }, 
+        "SublimeLinter/Monokai Extended Bright (SL).tmTheme": {
+            "dir": "SublimeLinter", 
+            "path": "/Users/arosenthal/sublime-packages/SublimeLinter/Monokai Extended Bright (SL).tmTheme", 
+            "version": 1463056774.0
+        }, 
+        "SublimeLinter/Monokai Phoenix (SL).tmTheme": {
+            "dir": "SublimeLinter", 
+            "path": "/Users/arosenthal/sublime-packages/SublimeLinter/Monokai Phoenix (SL).tmTheme", 
+            "version": 1463399762.0
+        }, 
+        "SublimeLinter/Next (SL).tmTheme": {
+            "dir": "SublimeLinter", 
+            "path": "/Users/arosenthal/sublime-packages/SublimeLinter/Next (SL).tmTheme", 
+            "version": 1462927282.0
+        }, 
+        "Tern.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/Tern.sublime-settings", 
+            "version": 1481940112.0
+        }, 
+        "TodoReview.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/TodoReview.sublime-settings", 
+            "version": 1489614527.0
+        }, 
+        "WakaTime.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/WakaTime.sublime-settings", 
+            "version": 1444066342.0
+        }, 
+        "XML.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/XML.sublime-settings", 
+            "version": 1467830916.0
+        }, 
+        "YAML.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/YAML.sublime-settings", 
+            "version": 1498057958.0
+        }, 
+        "ZenTabs.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/ZenTabs.sublime-settings", 
+            "version": 1486438462.0
+        }, 
+        "ar-snippets/ar-rcc.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/sublime-packages/ar-snippets/ar-rcc.sublime-snippet", 
+            "version": 1474306451.0
+        }, 
+        "ar-snippets/ar_rcc.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/sublime-packages/ar-snippets/ar_rcc.sublime-snippet", 
+            "version": 1502814685.0
+        }, 
+        "ar-snippets/arrow.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/sublime-packages/ar-snippets/arrow.sublime-snippet", 
+            "version": 1481939520.0
+        }, 
+        "ar-snippets/bz-bc.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/sublime-packages/ar-snippets/bz-bc.sublime-snippet", 
+            "version": 1438650020.0
+        }, 
+        "ar-snippets/bz-cl.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/sublime-packages/ar-snippets/bz-cl.sublime-snippet", 
+            "version": 1438798400.0
+        }, 
+        "ar-snippets/bz-pjson.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/sublime-packages/ar-snippets/bz-pjson.sublime-snippet", 
+            "version": 1453303662.0
+        }, 
+        "ar-snippets/bz-rcc-es5.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/sublime-packages/ar-snippets/bz-rcc-es5.sublime-snippet", 
+            "version": 1453303594.0
+        }, 
+        "ar-snippets/bz-rdc.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/sublime-packages/ar-snippets/bz-rdc.sublime-snippet", 
+            "version": 1500475220.0
+        }, 
+        "ar-snippets/classNameStyles.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/sublime-packages/ar-snippets/classNameStyles.sublime-snippet", 
+            "version": 1495568095.0
+        }, 
+        "ar-snippets/constAr.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/sublime-packages/ar-snippets/constAr.sublime-snippet", 
+            "version": 1504292250.0
+        }, 
+        "ar-snippets/divcn.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/sublime-packages/ar-snippets/divcn.sublime-snippet", 
+            "version": 1502989679.0
+        }, 
+        "ar-snippets/import-desctructuring.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/sublime-packages/ar-snippets/import-desctructuring.sublime-snippet", 
+            "version": 1487088687.0
+        }, 
+        "ar-snippets/ppl.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/sublime-packages/ar-snippets/ppl.sublime-snippet", 
+            "version": 1490374015.0
+        }, 
+        "ar-snippets/propsDS.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/sublime-packages/ar-snippets/propsDS.sublime-snippet", 
+            "version": 1481939600.0
+        }, 
+        "ar-snippets/react-bind.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/sublime-packages/ar-snippets/react-bind.sublime-snippet", 
+            "version": 1467905998.0
+        }, 
+        "ar-snippets/react-constructor-method.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/sublime-packages/ar-snippets/react-constructor-method.sublime-snippet", 
+            "version": 1470055272.0
+        }, 
+        "ar-snippets/switch.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/sublime-packages/ar-snippets/switch.sublime-snippet", 
+            "version": 1450448294.0
+        }, 
+        "ar-snippets/syncAvaTest.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/sublime-packages/ar-snippets/syncAvaTest.sublime-snippet", 
+            "version": 1501561747.0
+        }, 
+        "ar-snippets/testAvaSync.sublime-snippet": {
+            "dir": "ar-snippets", 
+            "path": "/Users/arosenthal/sublime-packages/ar-snippets/testAvaSync.sublime-snippet", 
+            "version": 1504288760.0
+        }, 
+        "trailing_spaces.sublime-settings": {
+            "dir": "", 
+            "path": "/Users/arosenthal/sublime-packages/trailing_spaces.sublime-settings", 
+            "version": 1463109224.0
+        }
+    }, 
+    "remove_packages": []
+}

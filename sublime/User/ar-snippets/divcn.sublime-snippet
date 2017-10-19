@@ -1,0 +1,13 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+<div className={styles.${1:className}}>
+  ${0:}
+</div>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>divcn</tabTrigger>
+  <description>create a div with className and css module styles</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js, meta.class.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js, meta.embedded.expression.jsx, meta.group.braces.round.js, meta.jsx.js</scope>
+</snippet>

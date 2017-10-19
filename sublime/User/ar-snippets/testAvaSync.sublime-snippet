@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+test('${1:title}', (t) => {
+  ${2:}
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>test</tabTrigger>
+  <description>ava test skeleton</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js, meta.function-call.with-arguments.js, variable.function.js</scope>
+</snippet>
