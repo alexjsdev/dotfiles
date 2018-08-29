@@ -170,8 +170,15 @@ alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v exten
 # Faster npm for Europeans
 # command -v npm > /dev/null && alias npme="npm --registry http://registry.npmjs.eu/"
 
+############## MY ADDITIONS ################
 # nuke node modules folder
 alias rmn="rm -rf node_modules/"
 
 # nuke node modules folder and rm yarn lock, and run yarn
 alias reyarn="rm -rf node_modules/ && rm -f yarn.lock && yarn"
+# npm equivelent
+alias rei="rm -rf node_modules/ && rm -f package-lock.json && npm i"
+
+alias perf="lighthouse --perf --disable-device-emulation --view"
+alias dps="docker ps"
+alias dexec="docker exec -it"
